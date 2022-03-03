@@ -26,7 +26,7 @@ function getUserInfo() {
         method: 'GET',
         // 请求头配置对象
         success: function (res) {
-            console.log(res);
+            // console.log(res);
             if (res.status !== 0) {
                 return layui.layer.msg('获取用户信息成功')
             }
